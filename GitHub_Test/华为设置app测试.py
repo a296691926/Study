@@ -15,8 +15,9 @@ desired_caps['appActivity'] = '.HWSettings'
 # 声明我们的driver对象
 driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', desired_caps)
 
-# 打印手机时间
-# print(driver.device_time)
+
+def test():
+    print(driver.device_time)
 
 # 打印手机分辨率 {'width': 1440, 'height': 2560}
 # phone_size = driver.get_window_size()
@@ -56,6 +57,8 @@ driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', desired_caps)
 # driver.set_network_connection(2)
 #
 # driver.get_screenshot_as_file("./screenshot_page/air.png")
-time.sleep(5)
+if __name__ == '__main__':
+    test()
+    time.sleep(5)
 
-driver.quit()
+    driver.quit()
