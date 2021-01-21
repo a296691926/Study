@@ -13,9 +13,9 @@ class Test_xx:
         with open("D:\Study\APP\GitHub_Test\data.txt", 'r') as f:
             assert f.read() == '1'
 
-class Test_xx:
+class Test_oo:
     # 参数引用
-    def test_xx(self, init_xx):
+    def test_oo(self, init_xx):
         with open("D:\Study\APP\GitHub_Test\data.txt", 'r') as f:
             assert f.read() == '1'
 
