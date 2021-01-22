@@ -1,0 +1,92 @@
+{
+  "uid" : "5962f9ae205c3d4d",
+  "name" : "Test_oo.test_oo4[1]",
+  "fullName" : "fixture_test01.Test_oo.test_oo4[1]",
+  "historyId" : "aef6d38c980b67540d5384f004f9f432",
+  "time" : {
+    "start" : 1611298588801,
+    "stop" : 1611298588853,
+    "duration" : 52
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "我是步骤四",
+      "time" : {
+        "start" : 1611298588823,
+        "stop" : 1611298588853,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "29517e3db0916c78",
+        "name" : "1",
+        "source" : "29517e3db0916c78.txt",
+        "type" : "text/plain",
+        "size" : 10
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "NIMO"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "17524-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "fixture_test01"
+  }, {
+    "name" : "testClass",
+    "value" : "fixture_test01"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_oo.test_oo4[1]"
+  }, {
+    "name" : "package",
+    "value" : "fixture_test01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5962f9ae205c3d4d.json",
+  "parameterValues" : [ ]
+}

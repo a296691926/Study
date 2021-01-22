@@ -1,0 +1,101 @@
+{
+  "uid" : "bb9fe27c4495d949",
+  "name" : "Test_oo.test_oo3[2]",
+  "fullName" : "fixture_test01.Test_oo.test_oo3[2]",
+  "historyId" : "b0b037b1aa09c5a7c65680dbde4dcd9c",
+  "time" : {
+    "start" : 1611298588615,
+    "stop" : 1611298588671,
+    "duration" : 56
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 2 != 2",
+  "statusTrace" : "self = <fixture_test01.Test_oo object at 0x000002533E254FA0>, a = 2\n\n    @pytest.allure.step(\"我是步骤三\")\n    def test_oo3(self, a):\n            allure.attach(a, \"不等于2\")\n>           assert a != 2\nE           assert 2 != 2\n\nGitHub_Test\\fixture_test01.py:31: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 2 != 2",
+    "statusTrace" : "self = <fixture_test01.Test_oo object at 0x000002533E254FA0>, a = 2\n\n    @pytest.allure.step(\"我是步骤三\")\n    def test_oo3(self, a):\n            allure.attach(a, \"不等于2\")\n>           assert a != 2\nE           assert 2 != 2\n\nGitHub_Test\\fixture_test01.py:31: AssertionError",
+    "steps" : [ {
+      "name" : "我是步骤三",
+      "time" : {
+        "start" : 1611298588637,
+        "stop" : 1611298588668,
+        "duration" : 31
+      },
+      "status" : "failed",
+      "statusMessage" : "self = <fixture_test01.Test_oo object at 0x000002533E254FA0>, a = 2\n\n    @pytest.allure.step(\"我是步骤三\")\n    def test_oo3(self, a):\n            allure.attach(a, \"不等于2\")\n>           assert a != 2\nE           assert 2 != 2\n\nGitHub_Test\\fixture_test01.py:31: AssertionError",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "88f91eb3604d5df8",
+        "name" : "2",
+        "source" : "88f91eb3604d5df8.txt",
+        "type" : "text/plain",
+        "size" : 10
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "NIMO"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "17524-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "fixture_test01"
+  }, {
+    "name" : "testClass",
+    "value" : "fixture_test01"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_oo.test_oo3[2]"
+  }, {
+    "name" : "package",
+    "value" : "fixture_test01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "bb9fe27c4495d949.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "bb10ec03a7483a36f67c6a0b8e63a1eb",
+    "name" : "fixture_test01",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 10
+    }
+  } ]
+}
