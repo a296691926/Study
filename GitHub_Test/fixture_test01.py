@@ -36,7 +36,7 @@ class Test_oo:
             assert a != 3
 
     @pytest.allure.step("我是步骤五")
-    def test_oo4(self, a):
+    def test_oo5(self, a):
         allure.attach(a, "不等于3")
         assert a != 3
 
