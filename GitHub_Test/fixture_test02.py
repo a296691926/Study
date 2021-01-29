@@ -36,7 +36,6 @@ class Test_oo:
             assert a != 3
 
 
-
 if __name__ == '__main__':
     pytest.main(["-s", "fixture_test01.py"])
 
